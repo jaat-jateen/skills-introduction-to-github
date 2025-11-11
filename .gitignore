@@ -41,6 +41,7 @@ Thumbs.db
 wallpaper*.png
 examples/*.png
 demo_wallpapers/
+showcase/
 test_wallpaper_generator.py
 __pycache__/
 *.pyc
