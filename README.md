@@ -23,6 +23,20 @@ _Get started using GitHub in less than an hour._
 
 People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” course guides you through everything you need to start contributing in less than an hour.
 
+### 🎨 New Feature: Automatic Wallpaper Generator
+
+This repository now includes an automatic wallpaper generator that creates beautiful, customized wallpapers with gradients, geometric patterns, and text! Perfect for personalizing your desktop or mobile device.
+
+**Quick Start:**
+```bash
+pip install -r requirements.txt
+python3 wallpaper_generator.py --random --text "Your Text Here"
+```
+
+📖 [See full documentation](WALLPAPER_GENERATOR.md)
+
+---
+
 - **Who is this for**: New developers, new GitHub users, and students.
 - **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
 - **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
