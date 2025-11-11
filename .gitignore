@@ -40,3 +40,7 @@ Thumbs.db
 ########################
 wallpaper*.png
 examples/*.png
+demo_wallpapers/
+test_wallpaper_generator.py
+__pycache__/
+*.pyc
