@@ -5,6 +5,17 @@ Generates several example wallpapers with different styles
 """
 
 import os
+import sys
+
+# Ensure Pillow is available before importing the generator
+try:
+    from PIL import Image  # noqa: F401
+except ImportError:
+    print("ERROR: The 'Pillow' library is not installed.")
+    print("Please install it by running:\n")
+    print("    pip install -r requirements.txt\n")
+    sys.exit(1)
+
 from wallpaper_generator import WallpaperGenerator
 
 

@@ -6,9 +6,18 @@ Creates customized wallpapers with gradients, patterns, and text.
 
 import os
 import random
-from PIL import Image, ImageDraw, ImageFont
 import argparse
 from datetime import datetime
+
+try:
+    from PIL import Image, ImageDraw, ImageFont
+except ImportError:
+    print("ERROR: The 'Pillow' library is not installed.")
+    print("Please install it by running:\n")
+    print("    pip install -r requirements.txt\n")
+    print("Or directly:\n")
+    print("    pip install Pillow\n")
+    raise SystemExit(1)
 
 
 class WallpaperGenerator:
